@@ -35,5 +35,4 @@ public class PostDAO {
 		int count = sqlSession.delete("guestbook.delete", no);
 		return count == 1;
 	}
-
 }
